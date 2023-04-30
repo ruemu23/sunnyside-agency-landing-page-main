@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+.header {
+    background: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    display: flex;
+    gap: 20px;
+    
+}
+.anchors{
+    display: block;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    color: black;
+    border: 1px solid white;
+    background: white;
+    width: 70px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 3px;
+}
+
+.link :hover{
+    color: black;
+    border: 1px solid white;
+    background: white;
+    width: 70px;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 3px;
+}
+.marker{
+    margin-top: 170px;
+    text-align: center;
+}
+.gift{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.arrow{
+    height: 120px;
+    width: 20px;
+}
+.ham{
+    display: none;
+}
+
+
+.first-section{
+    display: flex;
+  
+    width: 100%;
+    height: fit-content;
+    
+}
+.first-section .text, .first-section .egg{
+    width: 50%;
+    height: 50vw;
+    border:1px solid black;
+}
+.first-section .text{
+    padding: 100px;
+    word-wrap: break-word;
+    overflow:hidden;
+}
+.first-section .egg{
+    background-image: url(./images/desktop/image-transform.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ .pusher{
+    padding: 150px;
+    word-wrap: break-word;
+    overflow: hidden;
+    
+ } 
+ .downer{
+    margin-bottom: 20px;
+ } 
+ .lastme{
+    margin-top: 300px;
+    text-align: center;
+ }
+  
+.sec-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.sec-section .text, .sec-section .cup{
+    width: 50%;
+    height: 50vw;
+}
+.sec-section .cup{
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.third-section{
+    width: 100%;
+    /* border: 2px solid red; */
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+.third-section .cherry, .third-section .orange{
+    width: 50%;
+    height: 50vw;
+}
+.cherry{
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+     background-size: cover;
+    background-position: center;
+}
+.orange{
+    background-image: url(./images/desktop/image-photography.jpg);
+     background-size: cover;
+    background-position: center;
+}
+/*
+.divider{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+ }
+.sectiona{
+    height: 80vh;
+    width: 100%;
+    border: 1px solid red;
+}
+*/
+.forth-section{
+    height: 50vw;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+    }
+    .client{
+        text-align: center;
+        margin-top: 120px;
+        margin-bottom: 60px;
+    }
+    .client1{
+        margin-top: 40px;
+        margin-bottom: 40px;   
+    }
+    .testimonials{
+        height: 80%;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    .testimonies{
+        height: 100%;
+        width: 50%;
+    }
+    .img1{
+        border-radius: 50%;
+        width: 20%;
+    }
+.sample{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.sample .bottle, .sample .fruit, .sample .icecream, .sample .sugar{
+    width: 25%;
+    height: 25vw;
+    border: 1px solid red; 
+}
+.bottle{
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+     background-size: cover;
+    background-position: center;
+}
+.fruit{
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+     background-size: cover;
+    background-position: center;
+}
+.icecream{
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+     background-size: cover;
+    background-position: center;
+}
+.sugar{
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+     background-size: cover;
+    background-position: center;
+}
+
+
+
+  .sixth-section{
+    
+    background-color: aqua;
+    width: 100%;
+    height: fit-content;
+  }
+
+  .sun{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    height: 10vw;
+    border: 1px solid black; 
+}
+.list-items{
+    display: flex;
+    justify-content: center;  
+    height: 10vw;
+    border: 1px solid yellow; 
+}
+
+ul {
+    display: flex;
+    gap: 60px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  .ppp{
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    border: 1px solid pink;  
+  }
+
+
+.padd{
+   width: 70%;
+  margin: auto auto;
+ 
+  border: 1px solid black;
+}
+.spacer{
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .ham{
+        display: block;
+    }
+    .anchors{
+        display: none;
+    }
+    .first-section{
+        flex-direction: column-reverse;
+    }
+    .first-section .text, .first-section .egg{
+        width: 100%;
+        height: 100vw;
+    }
+    .sec-section{
+        flex-direction: column-reverse;
+    }
+    .sec-section .text, .sec-section .cup{
+        width: 100%;
+        height: 100vw;
+    }
+    .third-section{
+        flex-direction: column;
+    }
+    .third-section .cherry, .third-section .orange{
+        width: 100%;
+        height: 100vw;
+    }
+    .forth-section{
+        height: fit-content;
+    }
+    .testimonials{
+       flex-direction: column;
+       height: fit-content;
+    }
+    .testimonies{
+        height: 70vh;
+        width: 100%;
+    }
+    .fifth-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .fifth-section div{
+        border: 2px solid red;
+        width: 100%;
+        height: 100vw;
+    }
+    .lastme{
+        margin-top: 180px;
+        text-align: center;
+     }
+     .pusher{
+        padding: 100px;
+        word-wrap: break-word;
+        overflow: hidden;
+        
+     } 
+     .marker{
+        margin-top: 60px;
+        text-align: center;
+    }
+
+}
